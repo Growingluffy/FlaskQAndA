@@ -1,0 +1,755 @@
+{
+	"identifier": "HSK1",
+	"questions": [
+		{
+			"answer": "我",
+			"info": "wǒ",
+			"question": "ich"
+		},
+		{
+			"answer": "的",
+			"info": "de",
+			"question": "von, (besitzanzeigendes Partikel)"
+		},
+		{
+			"answer": "你",
+			"info": "nǐ",
+			"question": "du"
+		},
+		{
+			"answer": "是",
+			"info": "shì",
+			"question": "sein, ja"
+		},
+		{
+			"answer": "了",
+			"info": "le",
+			"question": "(Perfektpartikel), (Vergangenheitspartikel)"
+		},
+		{
+			"answer": "不",
+			"info": "bù",
+			"question": "nein, nicht"
+		},
+		{
+			"answer": "在",
+			"info": "zài",
+			"question": "an einem Ort sein"
+		},
+		{
+			"answer": "他",
+			"info": "tā",
+			"question": "er"
+		},
+		{
+			"answer": "我们",
+			"info": "wǒmen",
+			"question": "wir"
+		},
+		{
+			"answer": "好",
+			"info": "hǎo",
+			"question": "gut"
+		},
+		{
+			"answer": "有",
+			"info": "yǒu",
+			"question": "haben, existieren"
+		},
+		{
+			"answer": "这",
+			"info": "zhè",
+			"question": "dies"
+		},
+		{
+			"answer": "会",
+			"info": "huì",
+			"question": "koennen (eine erlernte Faehigkeit)"
+		},
+		{
+			"answer": "吗",
+			"info": "ma",
+			"question": "(Fragepartikel)"
+		},
+		{
+			"answer": "什么",
+			"info": "shénme",
+			"question": "was"
+		},
+		{
+			"answer": "说",
+			"info": "shuō",
+			"question": "sagen, sprechen"
+		},
+		{
+			"answer": "她",
+			"info": "tā",
+			"question": "sie (Einzahl)"
+		},
+		{
+			"answer": "想",
+			"info": "xiǎng",
+			"question": "wollen, moechten"
+		},
+		{
+			"answer": "一",
+			"info": "yī",
+			"question": "eins"
+		},
+		{
+			"answer": "很",
+			"info": "hěn",
+			"question": "sehr"
+		},
+		{
+			"answer": "人",
+			"info": "rén",
+			"question": "Mensch, Person"
+		},
+		{
+			"answer": "那",
+			"info": "nà",
+			"question": "jenes"
+		},
+		{
+			"answer": "来",
+			"info": "lái",
+			"question": "kommen"
+		},
+		{
+			"answer": "都",
+			"info": "dōu",
+			"question": "alle"
+		},
+		{
+			"answer": "个",
+			"info": "gè",
+			"question": "ZEW (allgemein)"
+		},
+		{
+			"answer": "能",
+			"info": "néng",
+			"question": "koennen (physikalisch moeglich)"
+		},
+		{
+			"answer": "去",
+			"info": "qù",
+			"question": "hingehen"
+		},
+		{
+			"answer": "和",
+			"info": "hé",
+			"question": "und"
+		},
+		{
+			"answer": "做",
+			"info": "zuò",
+			"question": "tun"
+		},
+		{
+			"answer": "上",
+			"info": "shàng",
+			"question": "ueber, oben"
+		},
+		{
+			"answer": "没有",
+			"info": "méiyǒu",
+			"question": "nicht, nicht haben"
+		},
+		{
+			"answer": "看",
+			"info": "kàn",
+			"question": "sehen"
+		},
+		{
+			"answer": "怎么",
+			"info": "zěnme",
+			"question": "wie (2 Zeichen)"
+		},
+		{
+			"answer": "现在",
+			"info": "xiànzài",
+			"question": "jetzt"
+		},
+		{
+			"answer": "点",
+			"info": "diǎn",
+			"question": "Punkt, Komma, Stunde"
+		},
+		{
+			"answer": "呢",
+			"info": "ne",
+			"question": "(Fragepartikel\"Und du?\")"
+		},
+		{
+			"answer": "太",
+			"info": "tài",
+			"question": "zu (viel, sehr, ...)"
+		},
+		{
+			"answer": "里",
+			"info": "lǐ",
+			"question": "innen"
+		},
+		{
+			"answer": "听",
+			"info": "tīng",
+			"question": "hoeren"
+		},
+		{
+			"answer": "谁",
+			"info": "shéi",
+			"question": "wer"
+		},
+		{
+			"answer": "多",
+			"info": "duō",
+			"question": "viel"
+		},
+		{
+			"answer": "时候",
+			"info": "shíhou",
+			"question": "Zeitpunkt, Zeit"
+		},
+		{
+			"answer": "下",
+			"info": "xià",
+			"question": "unten, unter"
+		},
+		{
+			"answer": "谢谢",
+			"info": "xièxie",
+			"question": "danke"
+		},
+		{
+			"answer": "先生",
+			"info": "xiānsheng",
+			"question": "Herr (Anrede)"
+		},
+		{
+			"answer": "喜欢",
+			"info": "xǐhuan",
+			"question": "moegen"
+		},
+		{
+			"answer": "大",
+			"info": "dà",
+			"question": "groß"
+		},
+		{
+			"answer": "东西",
+			"info": "dōngxī",
+			"question": "Ding, Sache"
+		},
+		{
+			"answer": "小",
+			"info": "xiǎo",
+			"question": "klein"
+		},
+		{
+			"answer": "叫",
+			"info": "jiào",
+			"question": "heißen, genannt werden"
+		},
+		{
+			"answer": "爱",
+			"info": "ài",
+			"question": "lieben"
+		},
+		{
+			"answer": "年",
+			"info": "nián",
+			"question": "Jahr"
+		},
+		{
+			"answer": "请",
+			"info": "qǐng",
+			"question": "bitten, einladen"
+		},
+		{
+			"answer": "回",
+			"info": "huí",
+			"question": "zurueckgehen"
+		},
+		{
+			"answer": "工作",
+			"info": "gōngzuò",
+			"question": "arbeiten, Arbeit, Job"
+		},
+		{
+			"answer": "钱",
+			"info": "qián",
+			"question": "Geld"
+		},
+		{
+			"answer": "吃",
+			"info": "chī",
+			"question": "essen"
+		},
+		{
+			"answer": "开",
+			"info": "kāi",
+			"question": "oeffnen, beginnen"
+		},
+		{
+			"answer": "家",
+			"info": "jiā",
+			"question": "Familie"
+		},
+		{
+			"answer": "哪",
+			"info": "nǎ",
+			"question": "welche, welcher, welches"
+		},
+		{
+			"answer": "朋友",
+			"info": "péngyou",
+			"question": "Freund"
+		},
+		{
+			"answer": "妈妈",
+			"info": "māma",
+			"question": "Mutter"
+		},
+		{
+			"answer": "今天",
+			"info": "jīntiān",
+			"question": "heute"
+		},
+		{
+			"answer": "几",
+			"info": "jǐ",
+			"question": "einige, wie viele (1 Zeichen)"
+		},
+		{
+			"answer": "爸爸",
+			"info": "bàba",
+			"question": "Vater"
+		},
+		{
+			"answer": "些",
+			"info": "xiē",
+			"question": "wenige, einige"
+		},
+		{
+			"answer": "怎么样",
+			"info": "zěnmeyàng",
+			"question": "wie (3 Zeichen)"
+		},
+		{
+			"answer": "对不起",
+			"info": "duìbuqǐ",
+			"question": "entschuldigung"
+		},
+		{
+			"answer": "住",
+			"info": "zhù",
+			"question": "leben, wohnen, bleiben"
+		},
+		{
+			"answer": "三",
+			"info": "sǎn",
+			"question": "drei"
+		},
+		{
+			"answer": "高兴",
+			"info": "gāoxìng",
+			"question": "erfreut sein, sich freuen"
+		},
+		{
+			"answer": "买",
+			"info": "mǎi",
+			"question": "kaufen"
+		},
+		{
+			"answer": "医生",
+			"info": "yīshēng",
+			"question": "Arzt"
+		},
+		{
+			"answer": "哪儿",
+			"info": "nǎer",
+			"question": "wo (Fragepartikel)"
+		},
+		{
+			"answer": "名字",
+			"info": "míngzi",
+			"question": "Name"
+		},
+		{
+			"answer": "认识",
+			"info": "rènshi",
+			"question": "kennenlernen, kennen"
+		},
+		{
+			"answer": "坐",
+			"info": "zuò",
+			"question": "sitzen"
+		},
+		{
+			"answer": "喝",
+			"info": "hē",
+			"question": "trinken"
+		},
+		{
+			"answer": "写",
+			"info": "xiě",
+			"question": "schreiben"
+		},
+		{
+			"answer": "月",
+			"info": "yuè",
+			"question": "Monat"
+		},
+		{
+			"answer": "号",
+			"info": "hào",
+			"question": "Nummer"
+		},
+		{
+			"answer": "狗",
+			"info": "gǒu",
+			"question": "Hund"
+		},
+		{
+			"answer": "岁",
+			"info": "suì",
+			"question": "Jahre alt sein"
+		},
+		{
+			"answer": "看见",
+			"info": "kànjiàn",
+			"question": "sehen (2 Zeichen)"
+		},
+		{
+			"answer": "打电话",
+			"info": "dǎdiànhuà",
+			"question": "mit einem Telefon anrufen"
+		},
+		{
+			"answer": "喂",
+			"info": "wéi",
+			"question": "Hallo (am Telefon)"
+		},
+		{
+			"answer": "儿子",
+			"info": "érzi",
+			"question": "Sohn"
+		},
+		{
+			"answer": "漂亮",
+			"info": "piàoliang",
+			"question": "huebsch, schoen"
+		},
+		{
+			"answer": "分钟",
+			"info": "fēnzhōng",
+			"question": "Minute"
+		},
+		{
+			"answer": "再见",
+			"info": "zàijiàn",
+			"question": "auf Wiedersehen"
+		},
+		{
+			"answer": "本",
+			"info": "běn",
+			"question": "ZEW (Buecher), Wurzel"
+		},
+		{
+			"answer": "明天",
+			"info": "míngtiān",
+			"question": "morgen"
+		},
+		{
+			"answer": "多少",
+			"info": "duōshao",
+			"question": "wie viel (2 Zeichen)"
+		},
+		{
+			"answer": "块",
+			"info": "kuài",
+			"question": "ZEW (Geld, Waehrungseinheiten z.B. 1 Yuan)"
+		},
+		{
+			"answer": "女儿",
+			"info": "nǚer",
+			"question": "Tochter"
+		},
+		{
+			"answer": "小姐",
+			"info": "xiǎojiě",
+			"question": "Fraeulein"
+		},
+		{
+			"answer": "衣服",
+			"info": "yīfu",
+			"question": "Kleidung"
+		},
+		{
+			"answer": "水",
+			"info": "shuǐ",
+			"question": "Wasser"
+		},
+		{
+			"answer": "学校",
+			"info": "xuéxiào",
+			"question": "Schule"
+		},
+		{
+			"answer": "电影",
+			"info": "diànyǐng",
+			"question": "Film"
+		},
+		{
+			"answer": "书",
+			"info": "shū",
+			"question": "Buch"
+		},
+		{
+			"answer": "四",
+			"info": "sì",
+			"question": "vier, 4"
+		},
+		{
+			"answer": "五",
+			"info": "wǔ",
+			"question": "fuenf, 5"
+		},
+		{
+			"answer": "医院",
+			"info": "yīyuàn",
+			"question": "Krankenhaus"
+		},
+		{
+			"answer": "少",
+			"info": "shǎo",
+			"question": "wenige"
+		},
+		{
+			"answer": "没关系",
+			"info": "méiguānxi",
+			"question": "es tut nichts zur Sache, es macht nichts, es ist egal"
+		},
+		{
+			"answer": "飞机",
+			"info": "fēijī",
+			"question": "Flugzeug"
+		},
+		{
+			"answer": "二",
+			"info": "èr",
+			"question": "zwei, 2"
+		},
+		{
+			"answer": "电视",
+			"info": "diànshì",
+			"question": "Fernseher"
+		},
+		{
+			"answer": "读",
+			"info": "dú",
+			"question": "vorlesen, lesen, studieren"
+		},
+		{
+			"answer": "后面",
+			"info": "hòumian",
+			"question": "hinter, nach"
+		},
+		{
+			"answer": "昨天",
+			"info": "zuótiān",
+			"question": "gestern"
+		},
+		{
+			"answer": "睡觉",
+			"info": "shuìjiào",
+			"question": "schlafen"
+		},
+		{
+			"answer": "六",
+			"info": "liù",
+			"question": "sechs, 6"
+		},
+		{
+			"answer": "老师",
+			"info": "lǎoshī",
+			"question": "Lehrer"
+		},
+		{
+			"answer": "星期",
+			"info": "xīngqī",
+			"question": "Woche (2 Zeichen)"
+		},
+		{
+			"answer": "十",
+			"info": "shí",
+			"question": "zehn, 10"
+		},
+		{
+			"answer": "猫",
+			"info": "māo",
+			"question": "Katze"
+		},
+		{
+			"answer": "电脑",
+			"info": "diànnǎo",
+			"question": "Computer, Rechner"
+		},
+		{
+			"answer": "热",
+			"info": "rè",
+			"question": "aufwaermen, heiß, aufheizen, Hitze"
+		},
+		{
+			"answer": "学生",
+			"info": "xuésheng",
+			"question": "Schueler"
+		},
+		{
+			"answer": "明年",
+			"info": "míngnián",
+			"question": "naechstes Jahr"
+		},
+		{
+			"answer": "字",
+			"info": "zì",
+			"question": "Zeichen"
+		},
+		{
+			"answer": "学习",
+			"info": "xuéxí",
+			"question": "lernen, studieren"
+		},
+		{
+			"answer": "冷",
+			"info": "lěng",
+			"question": "kalt"
+		},
+		{
+			"answer": "前面",
+			"info": "qiánmiàn",
+			"question": "vor, vorher (oertlich)"
+		},
+		{
+			"answer": "八",
+			"info": "bā",
+			"question": "acht, 8"
+		},
+		{
+			"answer": "中国",
+			"info": "zhōngguó",
+			"question": "China"
+		},
+		{
+			"answer": "七",
+			"info": "qī",
+			"question": "sieben, 7"
+		},
+		{
+			"answer": "菜",
+			"info": "cài",
+			"question": "Speise, Gericht, Gemuese, Kueche (einer Region)"
+		},
+		{
+			"answer": "桌子",
+			"info": "zhuōzi",
+			"question": "Tisch"
+		},
+		{
+			"answer": "出租车",
+			"info": "chūzūchē",
+			"question": "Taxi"
+		},
+		{
+			"answer": "天气",
+			"info": "tiānqì",
+			"question": "Wetter"
+		},
+		{
+			"answer": "茶",
+			"info": "chá",
+			"question": "Tee"
+		},
+		{
+			"answer": "九",
+			"info": "jiǔ",
+			"question": "neun, 9"
+		},
+		{
+			"answer": "商店",
+			"info": "shāngdiàn",
+			"question": "Laden, Einkaufsladen, Shop"
+		},
+		{
+			"answer": "椅子",
+			"info": "yǐzi",
+			"question": "Stuhl"
+		},
+		{
+			"answer": "同学",
+			"info": "tóngxué",
+			"question": "Mitschueler, Mitstudent"
+		},
+		{
+			"answer": "一点儿",
+			"info": "yīdiǎner",
+			"question": "ein bisschen, ein wenig, eine Spur"
+		},
+		{
+			"answer": "苹果",
+			"info": "píngguǒ",
+			"question": "Apfel"
+		},
+		{
+			"answer": "饭店",
+			"info": "fàndiàn",
+			"question": "Restaurant, Hotel, Gasthaus"
+		},
+		{
+			"answer": "中午",
+			"info": "zhōngwǔ",
+			"question": "Mittag"
+		},
+		{
+			"answer": "上午",
+			"info": "shàngwǔ",
+			"question": "Vormittag"
+		},
+		{
+			"answer": "水果",
+			"info": "shuǐguǒ",
+			"question": "Obst"
+		},
+		{
+			"answer": "杯子",
+			"info": "bēizi",
+			"question": "Becher, Glas, Tasse"
+		},
+		{
+			"answer": "下雨",
+			"info": "xiàyǔ",
+			"question": "regnen"
+		},
+		{
+			"answer": "米饭",
+			"info": "mǐfàn",
+			"question": "gekochter Reis, zubereiteter Reis"
+		},
+		{
+			"answer": "北京",
+			"info": "běijīng",
+			"question": "Beijing"
+		},
+		{
+			"answer": "汉语",
+			"info": "hànyǔ",
+			"question": "Chinesisch (Sprache der Han)"
+		},
+		{
+			"answer": "不客气",
+			"info": "bùkèqi",
+			"question": "Satz: Keine Ursache!, Satz: Bitte schoen!"
+		}
+	]
+}

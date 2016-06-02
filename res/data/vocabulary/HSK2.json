@@ -1,0 +1,760 @@
+{
+	"identifier": "HSK2",
+	"questions": [
+		{
+			"answer": "就",
+			"info": "jiù",
+			"question": "(Strukturpartikel, das fuer viele Strukturen verwendet wird)"
+		},
+		{
+			"answer": "要",
+			"info": "yào",
+			"question": "wollen, muessen"
+		},
+		{
+			"answer": "知道",
+			"info": "zhīdào",
+			"question": "wissen"
+		},
+		{
+			"answer": "吧",
+			"info": "ba",
+			"question": "(Modalpartikel fuer Vorschlaege)"
+		},
+		{
+			"answer": "到",
+			"info": "dào",
+			"question": "ankommen, bis, zu (einem Ort), (2. Teil von \"von ... bis ...\")"
+		},
+		{
+			"answer": "对",
+			"info": "duì",
+			"question": "richtig"
+		},
+		{
+			"answer": "也",
+			"info": "yě",
+			"question": "auch"
+		},
+		{
+			"answer": "还",
+			"info": "hái, huán",
+			"question": "noch, zurueckgeben"
+		},
+		{
+			"answer": "让",
+			"info": "ràng",
+			"question": "lassen, gestatten"
+		},
+		{
+			"answer": "给",
+			"info": "gěi",
+			"question": "fuer"
+		},
+		{
+			"answer": "过",
+			"info": "guò",
+			"question": "(Zeit) verbringen, (Vergangenheitspartikel), leben, zurechtkommen"
+		},
+		{
+			"answer": "得",
+			"info": "de, děi",
+			"question": "(Strukturpartikel nach einem Verb um das Verb weiter zu beschreiben), muessen"
+		},
+		{
+			"answer": "真",
+			"info": "zhēn",
+			"question": "wirklich, wahrhaftig"
+		},
+		{
+			"answer": "着",
+			"info": "zhe",
+			"question": "(Aspektpartikel, deutet auf einen Vorgang hin)"
+		},
+		{
+			"answer": "可以",
+			"info": "kěyǐ",
+			"question": "koennen, duerfen"
+		},
+		{
+			"answer": "别",
+			"info": "bié",
+			"question": "nicht (Imperativ), anderes"
+		},
+		{
+			"answer": "走",
+			"info": "zǒu",
+			"question": "losgehen, gehen"
+		},
+		{
+			"answer": "告诉",
+			"info": "gàosu",
+			"question": "erzaehlen"
+		},
+		{
+			"answer": "因为",
+			"info": "yīnwèi",
+			"question": "weil, wegen (1. Wort von \"aus x folgt y\")"
+		},
+		{
+			"answer": "再",
+			"info": "zài",
+			"question": "wieder (in der Zukunft)"
+		},
+		{
+			"answer": "快",
+			"info": "kuài",
+			"question": "schnell"
+		},
+		{
+			"answer": "但是",
+			"info": "dànshì",
+			"question": "aber (wenn sich die Situation aendert)"
+		},
+		{
+			"answer": "已经",
+			"info": "yǐjīng",
+			"question": "schon"
+		},
+		{
+			"answer": "为什么",
+			"info": "wèishénme",
+			"question": "warum"
+		},
+		{
+			"answer": "觉得",
+			"info": "juéde",
+			"question": "denken, fuehlen"
+		},
+		{
+			"answer": "它",
+			"info": "tā",
+			"question": "es"
+		},
+		{
+			"answer": "从",
+			"info": "cóng",
+			"question": "von (1. Teil von von ... bis ...)"
+		},
+		{
+			"answer": "找",
+			"info": "zhǎo",
+			"question": "suchen, jemanden rufen"
+		},
+		{
+			"answer": "最",
+			"info": "zuì",
+			"question": "am meisten + adj., (Nutzung fuer die Bildung des Superlativs)"
+		},
+		{
+			"answer": "可能",
+			"info": "kěnéng",
+			"question": "moeglicherweise, vielleicht"
+		},
+		{
+			"answer": "次",
+			"info": "cì",
+			"question": "mal (ein Mal trafen wir uns)"
+		},
+		{
+			"answer": "出",
+			"info": "chū",
+			"question": "rausgehen"
+		},
+		{
+			"answer": "孩子",
+			"info": "háizi",
+			"question": "Kind"
+		},
+		{
+			"answer": "所以",
+			"info": "suǒyǐ",
+			"question": "deswegen (2. Teil von \"aus x folgt y\")"
+		},
+		{
+			"answer": "两",
+			"info": "liǎng",
+			"question": "zwei (vor ZEWs)"
+		},
+		{
+			"answer": "错",
+			"info": "cuò",
+			"question": "Fehler"
+		},
+		{
+			"answer": "等",
+			"info": "děng",
+			"question": "warten"
+		},
+		{
+			"answer": "问题",
+			"info": "wèntí",
+			"question": "Frage, Problem"
+		},
+		{
+			"answer": "一起",
+			"info": "yīqǐ",
+			"question": "zusammen"
+		},
+		{
+			"answer": "开始",
+			"info": "kāishǐ",
+			"question": "beginnen, anfangen, starten"
+		},
+		{
+			"answer": "时间",
+			"info": "shíjiān",
+			"question": "Zeit, Zeitraum"
+		},
+		{
+			"answer": "事情",
+			"info": "shìqing",
+			"question": "Angelegenheit, Sache, Geschaeft"
+		},
+		{
+			"answer": "一下",
+			"info": "yīxià",
+			"question": "etwas fuer eine kurze Zeit tun, einmal"
+		},
+		{
+			"answer": "非常",
+			"info": "fēicháng",
+			"question": "außerordentlich, ungewoehnlich, extrem"
+		},
+		{
+			"answer": "希望",
+			"info": "xīwàng",
+			"question": "wuenschen, hoffen"
+		},
+		{
+			"answer": "准备",
+			"info": "zhǔnbèi",
+			"question": "vorbereiten"
+		},
+		{
+			"answer": "比",
+			"info": "bǐ",
+			"question": "(Partikel, zum Vergleich mittels Komparativ verwendet)"
+		},
+		{
+			"answer": "问",
+			"info": "wèn",
+			"question": "fragen"
+		},
+		{
+			"answer": "件",
+			"info": "jiàn",
+			"question": "ZEW fuer Kleidungsstuecke"
+		},
+		{
+			"answer": "意思",
+			"info": "yìsi",
+			"question": "Idee, Bedeutung, Meinung"
+		},
+		{
+			"answer": "第一",
+			"info": "dìyī",
+			"question": "erste"
+		},
+		{
+			"answer": "进",
+			"info": "jìn",
+			"question": "eintreten"
+		},
+		{
+			"answer": "大家",
+			"info": "dàjiā",
+			"question": "jeder (auch Anrede vor einer Menge von Leuten)"
+		},
+		{
+			"answer": "新",
+			"info": "xīn",
+			"question": "neu"
+		},
+		{
+			"answer": "您",
+			"info": "nín",
+			"question": "Sie (Hoeflichkeitsform)"
+		},
+		{
+			"answer": "穿",
+			"info": "chuān",
+			"question": "tragen (Kleidung), anziehen"
+		},
+		{
+			"answer": "送",
+			"info": "sòng",
+			"question": "abliefern, geben, senden"
+		},
+		{
+			"answer": "玩",
+			"info": "wán",
+			"question": "amuesieren, spielen, Spaß haben"
+		},
+		{
+			"answer": "长",
+			"info": "cháng",
+			"question": "lang"
+		},
+		{
+			"answer": "小时",
+			"info": "xiǎoshí",
+			"question": "Stunde"
+		},
+		{
+			"answer": "完",
+			"info": "wán",
+			"question": "fertigstellen, ganz, komplett"
+		},
+		{
+			"answer": "每",
+			"info": "měi",
+			"question": "jedes (Jeden morgen esse ich 饺子.)"
+		},
+		{
+			"answer": "公司",
+			"info": "gōngsī",
+			"question": "Unternehmen, Firma"
+		},
+		{
+			"answer": "帮助",
+			"info": "bāngzhù",
+			"question": "helfen"
+		},
+		{
+			"answer": "晚上",
+			"info": "wǎnshàng",
+			"question": "Abend"
+		},
+		{
+			"answer": "说话",
+			"info": "shuōhuà",
+			"question": "sprechen, sagen"
+		},
+		{
+			"answer": "门",
+			"info": "mén",
+			"question": "Tor, Tuer"
+		},
+		{
+			"answer": "女",
+			"info": "nǚ",
+			"question": "weiblich, Frau, Tochter"
+		},
+		{
+			"answer": "忙",
+			"info": "máng",
+			"question": "beschaeftigt"
+		},
+		{
+			"answer": "卖",
+			"info": "mài",
+			"question": "verkaufen"
+		},
+		{
+			"answer": "高",
+			"info": "gāo",
+			"question": "hoch, groß"
+		},
+		{
+			"answer": "房间",
+			"info": "fángjiān",
+			"question": "Raum"
+		},
+		{
+			"answer": "路",
+			"info": "lù",
+			"question": "Straße"
+		},
+		{
+			"answer": "懂",
+			"info": "dǒng",
+			"question": "verstehen"
+		},
+		{
+			"answer": "正在",
+			"info": "zhèngzài",
+			"question": "gerade, in dem Moment"
+		},
+		{
+			"answer": "笑",
+			"info": "xiào",
+			"question": "lachen, laecheln"
+		},
+		{
+			"answer": "远",
+			"info": "yuǎn",
+			"question": "weit, entfernt, weit entfernt"
+		},
+		{
+			"answer": "妻子",
+			"info": "qīzǐ",
+			"question": "Ehefrau, Ehefrau und Kinder"
+		},
+		{
+			"answer": "丈夫",
+			"info": "zhàngfu",
+			"question": "Ehemann"
+		},
+		{
+			"answer": "离",
+			"info": "lí",
+			"question": "weg sein von, verlassen"
+		},
+		{
+			"answer": "往",
+			"info": "wǎng",
+			"question": "in eine Richtung gehen"
+		},
+		{
+			"answer": "男",
+			"info": "nán",
+			"question": "maennlich"
+		},
+		{
+			"answer": "眼睛",
+			"info": "yǎnjing",
+			"question": "Auge"
+		},
+		{
+			"answer": "快乐",
+			"info": "kuàilè",
+			"question": "gluecklich"
+		},
+		{
+			"answer": "虽然",
+			"info": "suīrán",
+			"question": "obwohl"
+		},
+		{
+			"answer": "早上",
+			"info": "zǎoshàng",
+			"question": "morgens"
+		},
+		{
+			"answer": "药",
+			"info": "yào",
+			"question": "Medizin"
+		},
+		{
+			"answer": "身体",
+			"info": "shēntǐ",
+			"question": "Koerper, Gesundheit"
+		},
+		{
+			"answer": "黑",
+			"info": "hēi",
+			"question": "schwarz"
+		},
+		{
+			"answer": "咖啡",
+			"info": "kāfēi",
+			"question": "Kaffee"
+		},
+		{
+			"answer": "日",
+			"info": "rì",
+			"question": "Sonne, Tag"
+		},
+		{
+			"answer": "休息",
+			"info": "xiūxi",
+			"question": "sich ausruhen"
+		},
+		{
+			"answer": "外",
+			"info": "wài",
+			"question": "außen, außerhalb, fremd"
+		},
+		{
+			"answer": "生日",
+			"info": "shēngrì",
+			"question": "Geburtstag"
+		},
+		{
+			"answer": "哥哥",
+			"info": "gēge",
+			"question": "aelterer Bruder"
+		},
+		{
+			"answer": "票",
+			"info": "piào",
+			"question": "Ticket"
+		},
+		{
+			"answer": "手机",
+			"info": "shǒujī",
+			"question": "mobile phone"
+		},
+		{
+			"answer": "洗",
+			"info": "xǐ",
+			"question": "waschen"
+		},
+		{
+			"answer": "跳舞",
+			"info": "tiàowǔ",
+			"question": "tanzen"
+		},
+		{
+			"answer": "弟弟",
+			"info": "dìdi",
+			"question": "juengerer Bruder"
+		},
+		{
+			"answer": "妹妹",
+			"info": "mèimei",
+			"question": "juengere Schwester"
+		},
+		{
+			"answer": "红",
+			"info": "hóng",
+			"question": "rot"
+		},
+		{
+			"answer": "慢",
+			"info": "màn",
+			"question": "langsam"
+		},
+		{
+			"answer": "近",
+			"info": "jìn",
+			"question": "nah, ungefaehr"
+		},
+		{
+			"answer": "白",
+			"info": "bái",
+			"question": "weiß, hell"
+		},
+		{
+			"answer": "姐姐",
+			"info": "jiějie",
+			"question": "aeltere Schwester"
+		},
+		{
+			"answer": "介绍",
+			"info": "jièshào",
+			"question": "vorstellen, sich vorstellen"
+		},
+		{
+			"answer": "鱼",
+			"info": "yú",
+			"question": "Fisch"
+		},
+		{
+			"answer": "累",
+			"info": "lèi",
+			"question": "muede, erschoepft"
+		},
+		{
+			"answer": "课",
+			"info": "kè",
+			"question": "Unterrichtsstunde, Vorlesung"
+		},
+		{
+			"answer": "上班",
+			"info": "shàngbān",
+			"question": "anfangen zu arbeiten"
+		},
+		{
+			"answer": "旁边",
+			"info": "pángbiān",
+			"question": "neben"
+		},
+		{
+			"answer": "运动",
+			"info": "yùndòng",
+			"question": "trainieren, Sport machen, sich bewegen"
+		},
+		{
+			"answer": "去年",
+			"info": "qùnián",
+			"question": "vorheriges Jahr"
+		},
+		{
+			"answer": "报纸",
+			"info": "bàozhǐ",
+			"question": "Zeitung (normale Zeitung)"
+		},
+		{
+			"answer": "颜色",
+			"info": "yánsè",
+			"question": "Farbe, Erscheinung"
+		},
+		{
+			"answer": "机场",
+			"info": "jīchǎng",
+			"question": "Flughafen"
+		},
+		{
+			"answer": "唱歌",
+			"info": "chànggē",
+			"question": "ein Lied singen"
+		},
+		{
+			"answer": "千",
+			"info": "qiān",
+			"question": "1000, Tausend"
+		},
+		{
+			"answer": "好吃",
+			"info": "hǎochī",
+			"question": "lecker"
+		},
+		{
+			"answer": "考试",
+			"info": "kǎoshì",
+			"question": "eine Pruefung schreiben, Pruefung"
+		},
+		{
+			"answer": "左边",
+			"info": "zuǒbiān",
+			"question": "links"
+		},
+		{
+			"answer": "姓",
+			"info": "xìng",
+			"question": "Nachname"
+		},
+		{
+			"answer": "百",
+			"info": "bǎi",
+			"question": "100, Hundert"
+		},
+		{
+			"answer": "雪",
+			"info": "xuě",
+			"question": "Schnee"
+		},
+		{
+			"answer": "贵",
+			"info": "guì",
+			"question": "teuer, wertvoll"
+		},
+		{
+			"answer": "生病",
+			"info": "shēngbìng",
+			"question": "krank werden"
+		},
+		{
+			"answer": "游泳",
+			"info": "yóuyǒng",
+			"question": "schwimmen"
+		},
+		{
+			"answer": "牛奶",
+			"info": "niúnǎi",
+			"question": "Kuhmilch"
+		},
+		{
+			"answer": "右边",
+			"info": "yòubiān",
+			"question": "rechts"
+		},
+		{
+			"answer": "便宜",
+			"info": "piányi",
+			"question": "billig, guenstig"
+		},
+		{
+			"answer": "起床",
+			"info": "qǐchuang",
+			"question": "aufstehen (aus dem Bett), aus dem Bett kommen"
+		},
+		{
+			"answer": "鸡蛋",
+			"info": "jīdàn",
+			"question": "Huehnerei"
+		},
+		{
+			"answer": "题",
+			"info": "tí",
+			"question": "Thema, Problem"
+		},
+		{
+			"answer": "零",
+			"info": "líng",
+			"question": "0, Null"
+		},
+		{
+			"answer": "手表",
+			"info": "shǒubiǎo",
+			"question": "Armbanduhr"
+		},
+		{
+			"answer": "旅游",
+			"info": "lǚyóu",
+			"question": "Reise"
+		},
+		{
+			"answer": "服务员",
+			"info": "fúwùyuán",
+			"question": "Kellner, Bedienung"
+		},
+		{
+			"answer": "宾馆",
+			"info": "bīn'guǎn",
+			"question": "Gasthaus, Hotel"
+		},
+		{
+			"answer": "教室",
+			"info": "jiàoshì",
+			"question": "Klassenraum, Unterrichtszimmer"
+		},
+		{
+			"answer": "跑步",
+			"info": "pǎobù",
+			"question": "rennen, joggen"
+		},
+		{
+			"answer": "阴",
+			"info": "yáng",
+			"question": "Sonne, positiv"
+		},
+		{
+			"answer": "面条",
+			"info": "miàntiáo",
+			"question": "Nudeln"
+		},
+		{
+			"answer": "铅笔",
+			"info": "qiānbǐ",
+			"question": "Stift, Bleistift"
+		},
+		{
+			"answer": "火车站",
+			"info": "huǒchēzhàn",
+			"question": "Bahnhof"
+		},
+		{
+			"answer": "西瓜",
+			"info": "xīguā",
+			"question": "Wassermelone"
+		},
+		{
+			"answer": "羊肉",
+			"info": "yángròu",
+			"question": "Hammelfleisch, Schaffleisch"
+		},
+		{
+			"answer": "晴",
+			"info": "qíng",
+			"question": "klar (Wetter)"
+		},
+		{
+			"answer": "公共汽车",
+			"info": "gōnggòngqìchē",
+			"question": "Bus"
+		},
+		{
+			"answer": "打篮球",
+			"info": "dǎlánqiú",
+			"question": "Basketball spielen"
+		},
+		{
+			"answer": "踢足球",
+			"info": "tīzúqiú",
+			"question": "Fußball spielen"
+		}
+	]
+}

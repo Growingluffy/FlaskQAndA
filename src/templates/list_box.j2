@@ -1,0 +1,5 @@
+<select multiple="multiple" size="10">
+	{% for question in questions %}
+		<option value="{{ question.question }}">{{ question.question }}</option>
+	{% endfor %}
+</select>

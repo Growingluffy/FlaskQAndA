@@ -1,0 +1,20 @@
+{
+	"identifier": "TEST",
+	"questions": [
+		{
+			"answer": "我",
+			"info": "wǒ",
+			"question": "ich"
+		},
+		{
+			"answer": "的",
+			"info": "de",
+			"question": "von, (besitzanzeigendes Partikel)"
+		},
+		{
+			"answer": "你",
+			"info": "nǐ",
+			"question": "du"
+		}
+	]
+}
