@@ -1,3 +1,8 @@
+header h1 {
+	text-align: center;
+	margin: auto;
+}
+
 .content-area {
 	max-width: 96%;
 	background-color: #E0E0E0;
@@ -16,7 +21,7 @@
 
 .available-questions-container select,
 .active-questions-container select,
-.deactived-questions-container select
+.deactivated-questions-container select
 {
 	display: block;
 
@@ -30,7 +35,6 @@
 	margin-right: auto;
 
 	font-size: 0.75em;
-	border-radius: 9px;
 
 	max-height: 360px;
 	min-height: 240px;
@@ -40,14 +44,28 @@
 
 .available-questions-container select option,
 .active-questions-container select option,
-.deactived-questions-container select option {
-	margin-left: 4px;
+.deactivated-questions-container select option {
+
 }
 
 .qanda-button {
-	padding: 0.2em;
 	border-radius: 9px;
 	line-height: 1.4em;
 	font-size: 1em;
 	/*background-color: */
+}
+
+.navigation-container {
+	width: 100%;
+	float: left;
+}
+
+.navigation-container .btn {
+	margin-bottom: 10px;
+}
+
+.navigation-container:after {
+	content: "";
+	display: table;
+	clear: both;
 }

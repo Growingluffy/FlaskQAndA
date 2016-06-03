@@ -6,6 +6,7 @@
 
 
 {% block special_imports %}
+	<script type="text/javascript" src="{{ url_for('static', filename='js/initialize.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/event_listeners.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/ajax_calls.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/questions_functions.js') }}"></script>
@@ -20,16 +21,23 @@
 
 {% block content %}
 	<div class="grid grid-pad">
+		<section class="navigation-container">
+			<!-- area for start button etc. -->
+			{{ button('start', 'start-training-button qanda-button btn btn-primary') }}
+			{{ button('save', 'save-button qanda-button btn btn-primary') }}
+			{{ button('load', 'load-button qanda-button btn btn-primary') }}
+		</section>
+
 		<section class="col-1-5 available-questions-container">
 			<fieldset>
 				<label>Available Questions</label>
 				<select multiple="multiple" size="10">
 					<!-- this select is empty and will be filled later -->
 				</select>
-				{{ button('/activate_selected_questions', 'activate', 'activate-selected-available-questions-button qanda-button btn-block btn-success') }}
-				{{ button('/activate_all_questions', 'activate all', 'activate-all-available-questions-button qanda-button btn-block btn-success') }}
-				{{ button('/deactivate_selected_questions', 'deactivate', 'deactivate-selected-available-questions-button qanda-button btn-block btn-warning') }}
-				{{ button('/deactivate_all_questions', 'deactivate all', 'deactivate-all-available-questions-button qanda-button btn-block btn-warning') }}
+				{{ button('enable', 'enable-selected-available-questions-button qanda-button btn-block btn-success') }}
+				{{ button('enable all', 'enable-all-available-questions-button qanda-button btn-block btn-success') }}
+				{{ button('disable', 'disable-selected-available-questions-button qanda-button btn-block btn-warning') }}
+				{{ button('disable all', 'disable-all-available-questions-button qanda-button btn-block btn-warning') }}
 			</fieldset>
 		</section>
 
@@ -39,8 +47,8 @@
 				<select multiple="multiple" size="10">
 
 				</select>
-				{{ button('/deactivate_selected_questions', 'deactivate', 'deactivate-selected-available-questions-button qanda-button btn-block btn-warning') }}
-				{{ button('/deactivate_all_questions', 'deactivate all', 'deactivate-all-available-questions-button qanda-button btn-block btn-warning') }}
+				{{ button('deactivate', 'deactivate-selected-available-questions-button qanda-button btn-block btn-warning') }}
+				{{ button('deactivate all', 'deactivate-all-available-questions-button qanda-button btn-block btn-warning') }}
 			</fieldset>
 		</section>
 
@@ -48,14 +56,14 @@
 			Main Content
 		</section>
 
-		<section class="col-1-5 deactived-questions-container">
+		<section class="col-1-5 deactivated-questions-container">
 			<fieldset>
 				<label>Deactivated Questions</label>
 				<select multiple="multiple" size="10">
 
 				</select>
-				{{ button('/activate_selected_questions', 'activate', 'activate-selected-available-questions-button qanda-button btn-block btn-success') }}
-				{{ button('/activate_all_questions', 'activate all', 'activate-all-available-questions-button qanda-button btn-block btn-success') }}
+				{{ button('activate', 'activate-selected-available-questions-button qanda-button btn-block btn-success') }}
+				{{ button('activate all', 'activate-all-available-questions-button qanda-button btn-block btn-success') }}
 			</fieldset>
 		</section>
 	</div>

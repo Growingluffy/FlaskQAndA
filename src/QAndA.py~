@@ -17,7 +17,11 @@ questions_loader = QuestionsLoader()
 
 @app.route("/")
 def hello():
-	return render_template('index.j2', title='Q & A')
+        list_of_questions = []
+	for i in range(10):
+		list_of_questions.append(Question('q'+str(i), 'info'+str(i), 'a'+str(i), 'id'+str(i)))
+
+	return render_template('index.j2', title='Q & A', questions=list_of_questions)
 
 @app.route("/questions/<question_set_identifier>", methods=['GET'])
 def get_questions(question_set_identifier):
