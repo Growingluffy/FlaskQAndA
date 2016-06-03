@@ -9,6 +9,7 @@
 	<script type="text/javascript" src="{{ url_for('static', filename='js/event_listeners.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/ajax_calls.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/questions_functions.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/main_content_functions.js') }}"></script>
 {% endblock %}
 
 
@@ -19,7 +20,7 @@
 
 {% block content %}
 	<div class="grid grid-pad">
-		<section class="col-1-6 available-questions-container">
+		<section class="col-1-5 available-questions-container">
 			<fieldset>
 				<label>Available Questions</label>
 				<select multiple="multiple" size="10">
@@ -32,23 +33,30 @@
 			</fieldset>
 		</section>
 
-		<section class="col-1-6 active-questions-container">
+		<section class="col-1-5 active-questions-container">
 			<fieldset>
 				<label>Active Questions</label>
 				<select multiple="multiple" size="10">
 
 				</select>
-				{{ button('/deactivate_selected_questions', 'deactivate', 'btn-block btn-warning') }}
-				{{ button('/deactivate_all_questions', 'deactivate all', 'btn-block btn-warning') }}
+				{{ button('/deactivate_selected_questions', 'deactivate', 'deactivate-selected-available-questions-button qanda-button btn-block btn-warning') }}
+				{{ button('/deactivate_all_questions', 'deactivate all', 'deactivate-all-available-questions-button qanda-button btn-block btn-warning') }}
 			</fieldset>
 		</section>
 
-		<section class="col-3-6">
+		<section class="col-2-5 main-content-container">
 			Main Content
 		</section>
 
-		<section class="col-1-6 deactived-questions-container">
+		<section class="col-1-5 deactived-questions-container">
+			<fieldset>
+				<label>Deactivated Questions</label>
+				<select multiple="multiple" size="10">
 
+				</select>
+				{{ button('/activate_selected_questions', 'activate', 'activate-selected-available-questions-button qanda-button btn-block btn-success') }}
+				{{ button('/activate_all_questions', 'activate all', 'activate-all-available-questions-button qanda-button btn-block btn-success') }}
+			</fieldset>
 		</section>
 	</div>
 {% endblock %}

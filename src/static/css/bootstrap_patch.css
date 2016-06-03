@@ -1,3 +1,22 @@
 .btn-block {
 	text-align: center;
+	border: 1px solid #202020;
+	box-shadow: 1px 2px 2px 1px rgba(10, 10, 10, 0.3);
+}
+
+.btn-block:hover {
+	border: 1px solid #909090;
+	box-shadow: 1px 1px 2px 1px rgba(10, 10, 10, 0.3);
+}
+
+
+.available-questions-container .btn-block,
+.active-questions-container .btn-block,
+.deactived-questions-container .btn-block,
+.available-questions-container .btn-block:hover,
+.active-questions-container .btn-block:hover,
+.deactived-questions-container .btn-block:hover {
+	max-width: 120px;
+	margin-left: auto;
+	margin-right: auto;
 }
