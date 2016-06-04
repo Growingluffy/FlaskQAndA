@@ -1,33 +1,3 @@
-function update_view() {
-	// remove all old options
-	$('.active-questions-container select').empty();
-	$('.deactivated-questions-container select').empty();
-
-	// sort new values so that the order remains
-	// active_questions = _.sortBy(active_questions, function(question) {
-	// 	return question.identifier;
-	// });
-	// deactivated_questions = _.sortBy(deactivated_questions, function(question) {
-	// 	return question.identifier;
-	// });
-	active_questions = sort_questions(active_questions);
-	deactivated_questions = sort_questions(deactivated_questions);
-
-	// add html elements for new state of questions
-	_.each(active_questions, (question, index) => {
-		// add all new options
-		$('.active-questions-container select').append(
-			'<option value="' + question.identifier + '" title="' + question.question + '">' + shorten_text(question.question) + '</option>'
-		);
-	});
-	_.each(deactivated_questions, (question, index) => {
-		// add all new options
-		$('.deactivated-questions-container select').append(
-			'<option value="' + question.identifier + '" title="' + question.question + '">' + shorten_text(question.question) + '</option>'
-		);
-	});
-}
-
 function sort_questions(questions) {
 	return _.sortBy(questions, function(question) {
 		return question.identifier;
@@ -41,7 +11,7 @@ function set_available_questions(questions) {
 	_.each(questions, (question, index) => {
 		// add all new options
 		$('.available-questions-container select').append(
-			'<option value="' + question.identifier + '" title="' + question.question + '">' + shorten_text(question.question) + '</option>'
+			'<option value="' + question.identifier + '" title="' + question.question + '">' + shorten_text(question.question, 48) + '</option>'
 		);
 	});
 }
@@ -76,8 +46,7 @@ function remove_questions_from_container(element, questions) {
 	});
 }
 
-function shorten_text(text) {
-	var max_length = 16
+function shorten_text(text, max_length) {
 	if (text.length > max_length) {
 		return text.substring(0, max_length) + '...';
 	}

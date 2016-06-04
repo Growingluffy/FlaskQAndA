@@ -6,11 +6,15 @@
 
 
 {% block special_imports %}
+	<script type="text/javascript" src="{{ url_for('static', filename='js/gui.js') }}"></script>
+
+	<script type="text/javascript" src="{{ url_for('static', filename='js/questions_functions.js') }}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='js/quiz_functions.js') }}"></script>
+
 	<script type="text/javascript" src="{{ url_for('static', filename='js/initialize.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/event_listeners.js') }}"></script>
 	<script type="text/javascript" src="{{ url_for('static', filename='js/ajax_calls.js') }}"></script>
-	<script type="text/javascript" src="{{ url_for('static', filename='js/questions_functions.js') }}"></script>
-	<script type="text/javascript" src="{{ url_for('static', filename='js/main_content_functions.js') }}"></script>
+	<!-- <script type="text/javascript" src="{{ url_for('static', filename='js/main_content_functions.js') }}"></script> -->
 {% endblock %}
 
 
@@ -27,8 +31,9 @@
 			{{ button('save', 'save-button qanda-button btn btn-primary') }}
 			{{ button('load', 'load-button qanda-button btn btn-primary') }}
 		</section>
-
-		<section class="col-1-5 available-questions-container">
+	</div>
+	<div class="grid grid-pad">
+		<section class="col-1-2 available-questions-container">
 			<fieldset>
 				<label>Available Questions</label>
 				<select multiple="multiple" size="10">
@@ -36,11 +41,21 @@
 				</select>
 				{{ button('enable', 'enable-selected-available-questions-button qanda-button btn-block btn-success') }}
 				{{ button('enable all', 'enable-all-available-questions-button qanda-button btn-block btn-success') }}
+			</fieldset>
+		</section>
+
+		<section class="col-1-2 enabled-questions-container">
+			<fieldset>
+				<label>Enabled Questions</label>
+				<select multiple="multiple" size="10">
+					<!-- this select is empty and will be filled later -->
+				</select>
 				{{ button('disable', 'disable-selected-available-questions-button qanda-button btn-block btn-warning') }}
 				{{ button('disable all', 'disable-all-available-questions-button qanda-button btn-block btn-warning') }}
 			</fieldset>
 		</section>
-
+	</div>
+	<div class="grid grid-pad">
 		<section class="col-1-5 active-questions-container">
 			<fieldset>
 				<label>Active Questions</label>
@@ -52,8 +67,20 @@
 			</fieldset>
 		</section>
 
-		<section class="col-2-5 main-content-container">
-			Main Content
+		<section class="col-3-5 main-content-container">
+			<div class="question-content-container">
+				<p class="question-question"></p>
+				{{ button('show info', 'question-show-info-button qanda-button btn-block btn-info invisible') }}
+				<p class="question-info invisible"></p>
+				{{ button('show answer', 'question-show-answer-button qanda-button btn-block btn-info invisible') }}
+				<p class="question-answer invisible"></p>
+			<div>
+			<div class="question-buttons-container">
+				{{ button('correct', 'question-correct-button qanda-button btn btn-success invisible') }}
+				{{ button('wrong', 'question-wrong-button qanda-button btn btn-danger invisible') }}
+				{{ button('deactivate', 'question-deactivate-button qanda-button btn btn-warning invisible') }}
+				{{ button('disable', 'question-disable-button qanda-button btn btn-warning invisible') }}
+			</div>
 		</section>
 
 		<section class="col-1-5 deactivated-questions-container">

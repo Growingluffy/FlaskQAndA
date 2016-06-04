@@ -25,15 +25,26 @@
 
 .available-questions-container .btn-block,
 .active-questions-container .btn-block,
-.deactived-questions-container .btn-block,
+.deactivated-questions-container .btn-block,
+.enabled-questions-container .btn-block,
 .available-questions-container .btn-block:hover,
 .active-questions-container .btn-block:hover,
-.deactived-questions-container .btn-block:hover {
+.deactivated-questions-container .btn-block:hover,
+.enabled-questions-container .btn-block:hover
+{
 	max-width: 120px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+.question-show-info-button,
+.question-show-answer-button
+{
+	max-width: 120px;
+	margin-bottom: 10px;
+}
+
+/* disabled links should not trigger a pointer event */
 a[disabled] {
 	pointer-events: none;
 }

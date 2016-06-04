@@ -12,7 +12,9 @@ header h1 {
 }
 
 .available-questions-container label,
-.active-questions-container label
+.active-questions-container label,
+.deactivated-questions-container label,
+.enabled-questions-container label
 {
 	text-align: center;
 	display: block;
@@ -21,6 +23,7 @@ header h1 {
 
 .available-questions-container select,
 .active-questions-container select,
+.enabled-questions-container select,
 .deactivated-questions-container select
 {
 	display: block;
@@ -44,7 +47,8 @@ header h1 {
 
 .available-questions-container select option,
 .active-questions-container select option,
-.deactivated-questions-container select option {
+.deactivated-questions-container select option,
+.enabled-questions-container select option {
 
 }
 
@@ -68,4 +72,23 @@ header h1 {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+.invisible-question-attribute {
+	display: none;
+}
+
+
+.invisible {
+	display: none;
+}
+
+.question-question .question-content-label {
+	font-weight: bold;
+}
+.question-info .question-content-label {
+	font-weight: bold;
+}
+.question-answer .question-content-label {
+	font-weight: bold;
 }
